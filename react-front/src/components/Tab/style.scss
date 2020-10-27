@@ -1,0 +1,27 @@
+.tabs {
+	width: 100%;
+	height: 49px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	border-top: 1px solid #ddd;
+	background: rgb(255, 255, 255);
+	.tab {
+		color: rgb(0, 0, 0);
+		flex: 1;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		.iconfont {
+			font-size: 20px;
+		}
+		.text {
+			font-size: 12px;
+		}
+		&.active {
+			color: #ff0800;
+		}
+	}
+}
